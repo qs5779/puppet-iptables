@@ -1,16 +1,16 @@
 {
-  "name": "arusso-iptables",
-  "version": "1.2.2",
-  "author": "arusso",
+  "name": "que-iptables",
+  "version": "1.0.0",
+  "author": "quien sabe",
   "summary": "iptables management",
   "license": "MIT",
-  "source": "https://github.com/arusso/puppet-iptables",
-  "issues_url": "https://github.com/arusso/puppet-iptables/issues",
-  "project_page": "https://github.com/arusso/puppet-iptables",
+  "source": "https://github.com/qs5779/puppet-iptables",
+  "issues_url": "https://github.com/qs5779/puppet-iptables/issues",
+  "project_page": "https://github.com/qs5779/puppet-iptables",
   "description": "iptables management module that updates the iptables save file,\n  without changing the running state of iptables.",
   "dependencies": [
     {"version_requirement":">= 2.0.0","name":"puppetlabs/concat"},
-    {"version_requirement":">= 0.0.1","name":"arusso/oski"},
+    {"version_requirement":">= 0.0.1","name":"qs5779/oski"},
     {"version_requirement":">= 4.2.0","name":"puppetlabs/stdlib"}
   ],
   "operatingsystem_support": [
